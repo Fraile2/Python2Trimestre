@@ -8,4 +8,5 @@ alumno1["Apellidos"]="Fraile"
 print(alumno1)
 
 alumno1["Apellidos"]="Fraile del Olmo"
-print(alumno1)
+for item in alumno1:
+    print(alumno1[item])
