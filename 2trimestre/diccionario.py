@@ -5,8 +5,9 @@ alumno1={
 }
 
 alumno1["Apellidos"]="Fraile"
-print(alumno1)
+print(f'valores {list(alumno1.values())}')
+print(f'claves {list(alumno1.keys())}')
 
-alumno1["Apellidos"]="Fraile del Olmo"
-for item in alumno1:
-    print(alumno1[item])
+# alumno1["Apellidos"]="Fraile del Olmo"
+# for item in alumno1:
+#     print(alumno1[item])
